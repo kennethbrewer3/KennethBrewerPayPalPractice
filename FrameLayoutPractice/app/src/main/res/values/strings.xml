@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FrameLayoutPractice</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="message">now you can see how this overlaps the image</string>
+</resources>

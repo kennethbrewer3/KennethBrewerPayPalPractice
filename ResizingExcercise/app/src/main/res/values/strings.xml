@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">PersonApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first_name_label">First name:</string>
+    <string name="first_name_value">Ken</string>
+    <string name="last_name_label">Last name:</string>
+    <string name="last_name_value">Brewer</string>
+
+    <string name="gender_label">Gender:</string>
+    <string name="gender_value">Male</string>
+
+    <string name="age_label">Age (years):</string>
+    <string name="age_value">36</string>
+
+    <string name="height_label">Height (cm):</string>
+    <string name="height_value">150.0</string>
+
+    <string name="weight_label">Weight (kG):</string>
+    <string name="weight_value">150.5</string>
+
+    <string name="country_label">Country:</string>
+    <string name="country_value">U.S.A.</string>
+
+    <string name="state_label">State:</string>
+    <string name="state_value">California</string>
+
+    <string name="street_label">Street:</string>
+    <string name="street_value">Birdcage St.</string>
+
+    <string name="street_number_label">Number:</string>
+    <string name="street_number_value">6009</string>
+
+    <string name="submit_button_text">Submit Person</string>
+    <string name="clear_button_text">Clear</string>
+
+    <string name="no_first_name_toast">First name not found!</string>
+    <string name="no_last_name_toast">Last name not found!</string>
+    <string name="no_age_toast">Age not found!</string>
+    <string name="no_height_toast">Height must be greater than zero!</string>
+    <string name="no_weight_toast">Weight must be greater than zero!</string>
+    <string name="no_country_toast">No country found!</string>
+    <string name="no_state_toast">No state found!</string>
+    <string name="no_street_toast">No street found!</string>
+    <string name="no_street_number_toast">No street number found!</string>
+
+    <string name="people_prefix_multi">There are </string>
+    <string name="people_suffix_multi"> people in the collection.</string>
+    <string name="people_prefix_single">There is </string>
+    <string name="people_suffix_single"> person in the collection.</string>
+
+    <string name="dob_label">DOB:</string>
+    <string name="dob_value">1978-07-06</string>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

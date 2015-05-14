@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DynamiclyCreatedControls</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="add_button">Add View</string>
+    <string name="remove_button">Remove View</string>
+</resources>

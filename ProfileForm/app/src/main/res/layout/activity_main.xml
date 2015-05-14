@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="4"
+            android:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="#ffbcfffd"
+            android:gravity="bottom|right"
+            android:src="@drawable/placeimg_300_200_animals"
+            />
+
+        <TextView
+            android:id="@+id/first_name_label"
+            android:text="First name:"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:textStyle="bold"
+         />
+
+
+        <TextView
+            android:id="@+id/first_name_value"
+            android:text="Ken"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="1"
+            android:layout_column="2"
+            />
+
+
+        <TextView
+            android:id="@+id/last_name_label"
+            android:text="Last name:"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/last_name_value"
+            android:text="Brewer"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="3"
+            android:layout_column="2"
+            />
+
+        <TextView
+            android:id="@+id/gender_label"
+            android:text="Gender:"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/gender_value"
+            android:text="Male"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="5"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:id="@+id/height_label"
+            android:text="Height:"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/height_value"
+            android:text="190.5cm"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="5"
+            android:layout_column="1"
+            />
+
+        <TextView
+            android:id="@+id/weight_label"
+            android:text="Weight:"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/weight_value"
+            android:text="191.0kG"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="5"
+            android:layout_column="2"
+            />
+
+
+
+        <TextView
+            android:id="@+id/country_label"
+            android:text="Country:"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/country_value"
+            android:text="USA"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="7"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:id="@+id/state_label"
+            android:text="State:"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/state_value"
+            android:text="California"
+            android:gravity="bottom|left"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="#000"
+            android:layout_row="7"
+            android:layout_column="2"
+            />
+    </GridLayout>
+</RelativeLayout>

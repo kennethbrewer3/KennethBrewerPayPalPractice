@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ListViewOption2</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="countries">
+        <item name="canada">Canada</item>
+        <item name="mexico">Mexico</item>
+        <item name="unitedstates">United States</item>
+        <item name="england">England</item>
+        <item name="austria">Austria</item>
+        <item name="spain">Spain</item>
+        <item name="germany">Germany</item>
+    </string-array>
+</resources>

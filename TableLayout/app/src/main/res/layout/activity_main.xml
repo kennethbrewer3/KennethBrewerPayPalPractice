@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:text="Harshada"
+            android:layout_height="wrap_content"
+            android:background="#ee9125"
+
+            />
+
+        <TextView
+            android:text="James"
+            android:layout_height="wrap_content"
+            android:background="#4584D3"
+            />
+
+        <TextView
+            android:text="Claudio"
+            android:layout_height="wrap_content"
+            android:background="#FFFF66"
+             />
+        </TableRow>
+
+      <TableRow>
+          <TextView
+              android:text="Leonel"
+              android:layout_height="match_parent"
+              android:background="#89BE44"
+              android:layout_span="3"
+              />
+      </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Robert"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="#EE9125"
+            android:layout_span="1"
+            />
+        <TextView
+            android:text="Jahath"
+            android:layout_width="wrap_content"
+            android:layhout_height="wrap_content"
+            android:background="#89BE44"
+            android:layout_span="2"
+            />
+    </TableRow>
+</TableLayout>
